@@ -1,0 +1,2279 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>权限管理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/权限管理/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/权限管理/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 白色背景 (矩形) -->
+      <div id="u1362" class="ax_default box_1" data-label="白色背景">
+        <div id="u1362_div" class=""></div>
+        <div id="u1362_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1363" class="ax_default box_1">
+        <div id="u1363_div" class=""></div>
+        <div id="u1363_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 删除按钮 (矩形) -->
+      <div id="u1364" class="ax_default primary_button" data-label="删除按钮">
+        <div id="u1364_div" class=""></div>
+        <div id="u1364_text" class="text ">
+          <p><span style="text-decoration:none;">删除</span></p>
+        </div>
+      </div>
+
+      <!-- 表头 (表格) -->
+      <div id="u1365" class="ax_default" data-label="表头">
+
+        <!-- Unnamed (表格单元) -->
+        <div id="u1366" class="ax_default table_cell">
+          <img id="u1366_img" class="img " src="images/安全巡检记录/u533.png"/>
+          <div id="u1366_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (表格单元) -->
+        <div id="u1367" class="ax_default table_cell">
+          <img id="u1367_img" class="img " src="images/安全巡检记录/u533.png"/>
+          <div id="u1367_text" class="text ">
+            <p><span style="text-decoration:none;">序号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (表格单元) -->
+        <div id="u1368" class="ax_default table_cell">
+          <img id="u1368_img" class="img " src="images/进出权限/u966.png"/>
+          <div id="u1368_text" class="text ">
+            <p><span style="text-decoration:none;">角色名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (表格单元) -->
+        <div id="u1369" class="ax_default table_cell">
+          <img id="u1369_img" class="img " src="images/权限管理/u1369.png"/>
+          <div id="u1369_text" class="text ">
+            <p><span style="text-decoration:none;">备注</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (表格单元) -->
+        <div id="u1370" class="ax_default table_cell">
+          <img id="u1370_img" class="img " src="images/安全巡检记录/u544.png"/>
+          <div id="u1370_text" class="text ">
+            <p><span style="text-decoration:none;">操作</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 添加按钮 (矩形) -->
+      <div id="u1371" class="ax_default primary_button" data-label="添加按钮">
+        <div id="u1371_div" class=""></div>
+        <div id="u1371_text" class="text ">
+          <p><span style="text-decoration:none;">添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (中继器) -->
+      <div id="u1372" class="ax_default">
+        <script id="u1372_script" type="axure-repeater-template">
+
+          <!-- Unnamed (组合) -->
+          <div id="u1373" class="ax_default u1373" data-left="0" data-top="0" data-width="1676" data-height="40">
+
+            <!-- fx (矩形) -->
+            <div id="u1374" class="ax_default box_1 u1374" data-label="fx">
+              <div id="u1374_div" class="u1374_div"></div>
+              <div id="u1374_text" class="text u1374_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- id (矩形) -->
+            <div id="u1375" class="ax_default box_1 u1375" data-label="id">
+              <div id="u1375_div" class="u1375_div"></div>
+              <div id="u1375_text" class="text u1375_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- xm (矩形) -->
+            <div id="u1376" class="ax_default box_1 u1376" data-label="xm">
+              <div id="u1376_div" class="u1376_div"></div>
+              <div id="u1376_text" class="text u1376_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- dh (矩形) -->
+            <div id="u1377" class="ax_default box_1 u1377" data-label="dh">
+              <div id="u1377_div" class="u1377_div"></div>
+              <div id="u1377_text" class="text u1377_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- cz (矩形) -->
+            <div id="u1378" class="ax_default box_1 u1378" data-label="cz">
+              <div id="u1378_div" class="u1378_div"></div>
+              <div id="u1378_text" class="text u1378_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (组合) -->
+          <div id="u1379" class="ax_default u1379" data-left="15" data-top="10" data-width="20" data-height="20">
+
+            <!-- 复选框内 (矩形) -->
+            <div id="u1380" class="ax_default ellipse ax_default_hidden u1380" data-label="复选框内" style="display:none; visibility: hidden">
+              <div id="u1380_div" class="u1380_div"></div>
+              <div id="u1380_text" class="text u1380_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- 复选框边 (矩形) -->
+            <div id="u1381" class="ax_default ellipse u1381" data-label="复选框边">
+              <div id="u1381_div" class="u1381_div"></div>
+              <div id="u1381_text" class="text u1381_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 删除按钮 (矩形) -->
+          <div id="u1382" class="ax_default primary_button u1382" data-label="删除按钮">
+            <div id="u1382_div" class="u1382_div"></div>
+            <div id="u1382_text" class="text u1382_text">
+              <p><span style="text-decoration:none;">编辑</span></p>
+            </div>
+          </div>
+
+          <!-- 删除按钮 (矩形) -->
+          <div id="u1383" class="ax_default primary_button u1383" data-label="删除按钮">
+            <div id="u1383_div" class="u1383_div"></div>
+            <div id="u1383_text" class="text u1383_text">
+              <p><span style="text-decoration:none;">删除</span></p>
+            </div>
+          </div>
+        </script>
+        <div id="u1372-1" class="preeval" style="width: 1676px; height: 40px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u1373-1" class="ax_default u1373" style="visibility: inherit" data-left="0" data-top="0" data-width="1676" data-height="40">
+
+            <!-- fx (矩形) -->
+            <div id="u1374-1" class="ax_default box_1 u1374" data-label="fx" style="width: 51px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u1374-1_div" class="u1374_div" style="width: 51px; height: 40px;visibility: inherit"></div>
+              <div id="u1374-1_text" class="text u1374_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- id (矩形) -->
+            <div id="u1375-1" class="ax_default box_1 u1375" data-label="id" style="width: 51px; height: 40px; left: 50px; top: 0px;visibility: inherit">
+              <div id="u1375-1_div" class="u1375_div" style="width: 51px; height: 40px;visibility: inherit"></div>
+              <div id="u1375-1_text" class="text u1375_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">1</span></p>
+              </div>
+            </div>
+
+            <!-- xm (矩形) -->
+            <div id="u1376-1" class="ax_default box_1 u1376" data-label="xm" style="width: 266px; height: 40px; left: 100px; top: 0px;visibility: inherit">
+              <div id="u1376-1_div" class="u1376_div" style="width: 266px; height: 40px;visibility: inherit"></div>
+              <div id="u1376-1_text" class="text u1376_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">超级管理员</span></p>
+              </div>
+            </div>
+
+            <!-- dh (矩形) -->
+            <div id="u1377-1" class="ax_default box_1 u1377" data-label="dh" style="width: 1151px; height: 40px; left: 365px; top: 0px;visibility: inherit">
+              <div id="u1377-1_div" class="u1377_div" style="width: 1151px; height: 40px;visibility: inherit"></div>
+              <div id="u1377-1_text" class="text u1377_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">拥有最权限</span></p>
+              </div>
+            </div>
+
+            <!-- cz (矩形) -->
+            <div id="u1378-1" class="ax_default box_1 u1378" data-label="cz" style="width: 161px; height: 40px; left: 1515px; top: 0px;visibility: inherit">
+              <div id="u1378-1_div" class="u1378_div" style="width: 161px; height: 40px;visibility: inherit"></div>
+              <div id="u1378-1_text" class="text u1378_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (组合) -->
+          <div id="u1379-1" class="ax_default u1379" style="visibility: inherit" data-left="15" data-top="10" data-width="20" data-height="20">
+
+            <!-- 复选框内 (矩形) -->
+            <div id="u1380-1" class="ax_default ellipse u1380" data-label="复选框内" style="width: 10px; height: 10px; left: 20px; top: 15px;display:none; visibility: hidden">
+              <div id="u1380-1_div" class="u1380_div" style="width: 10px; height: 10px;visibility: inherit"></div>
+              <div id="u1380-1_text" class="text u1380_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- 复选框边 (矩形) -->
+            <div id="u1381-1" class="ax_default ellipse u1381" data-label="复选框边" style="width: 20px; height: 20px; left: 15px; top: 10px;visibility: inherit">
+              <div id="u1381-1_div" class="u1381_div" style="width: 20px; height: 20px;visibility: inherit"></div>
+              <div id="u1381-1_text" class="text u1381_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 删除按钮 (矩形) -->
+          <div id="u1382-1" class="ax_default primary_button u1382" data-label="删除按钮" style="width: 60px; height: 25px; left: 1528px; top: 8px;visibility: inherit">
+            <div id="u1382-1_div" class="u1382_div" style="width: 60px; height: 25px;visibility: inherit"></div>
+            <div id="u1382-1_text" class="text u1382_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">编辑</span></p>
+            </div>
+          </div>
+
+          <!-- 删除按钮 (矩形) -->
+          <div id="u1383-1" class="ax_default primary_button u1383" data-label="删除按钮" style="width: 60px; height: 25px; left: 1604px; top: 8px;visibility: inherit">
+            <div id="u1383-1_div" class="u1383_div" style="width: 60px; height: 25px;visibility: inherit"></div>
+            <div id="u1383-1_text" class="text u1383_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">删除</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1372-2" class="preeval" style="width: 1676px; height: 40px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u1373-2" class="ax_default u1373" style="visibility: inherit" data-left="0" data-top="0" data-width="1676" data-height="40">
+
+            <!-- fx (矩形) -->
+            <div id="u1374-2" class="ax_default box_1 u1374" data-label="fx" style="width: 51px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u1374-2_div" class="u1374_div" style="width: 51px; height: 40px;visibility: inherit"></div>
+              <div id="u1374-2_text" class="text u1374_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- id (矩形) -->
+            <div id="u1375-2" class="ax_default box_1 u1375" data-label="id" style="width: 51px; height: 40px; left: 50px; top: 0px;visibility: inherit">
+              <div id="u1375-2_div" class="u1375_div" style="width: 51px; height: 40px;visibility: inherit"></div>
+              <div id="u1375-2_text" class="text u1375_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">2</span></p>
+              </div>
+            </div>
+
+            <!-- xm (矩形) -->
+            <div id="u1376-2" class="ax_default box_1 u1376" data-label="xm" style="width: 266px; height: 40px; left: 100px; top: 0px;visibility: inherit">
+              <div id="u1376-2_div" class="u1376_div" style="width: 266px; height: 40px;visibility: inherit"></div>
+              <div id="u1376-2_text" class="text u1376_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">经理</span></p>
+              </div>
+            </div>
+
+            <!-- dh (矩形) -->
+            <div id="u1377-2" class="ax_default box_1 u1377" data-label="dh" style="width: 1151px; height: 40px; left: 365px; top: 0px;visibility: inherit">
+              <div id="u1377-2_div" class="u1377_div" style="width: 1151px; height: 40px;visibility: inherit"></div>
+              <div id="u1377-2_text" class="text u1377_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">具有管理权限</span></p>
+              </div>
+            </div>
+
+            <!-- cz (矩形) -->
+            <div id="u1378-2" class="ax_default box_1 u1378" data-label="cz" style="width: 161px; height: 40px; left: 1515px; top: 0px;visibility: inherit">
+              <div id="u1378-2_div" class="u1378_div" style="width: 161px; height: 40px;visibility: inherit"></div>
+              <div id="u1378-2_text" class="text u1378_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (组合) -->
+          <div id="u1379-2" class="ax_default u1379" style="visibility: inherit" data-left="15" data-top="10" data-width="20" data-height="20">
+
+            <!-- 复选框内 (矩形) -->
+            <div id="u1380-2" class="ax_default ellipse u1380" data-label="复选框内" style="width: 10px; height: 10px; left: 20px; top: 15px;display:none; visibility: hidden">
+              <div id="u1380-2_div" class="u1380_div" style="width: 10px; height: 10px;visibility: inherit"></div>
+              <div id="u1380-2_text" class="text u1380_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- 复选框边 (矩形) -->
+            <div id="u1381-2" class="ax_default ellipse u1381" data-label="复选框边" style="width: 20px; height: 20px; left: 15px; top: 10px;visibility: inherit">
+              <div id="u1381-2_div" class="u1381_div" style="width: 20px; height: 20px;visibility: inherit"></div>
+              <div id="u1381-2_text" class="text u1381_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 删除按钮 (矩形) -->
+          <div id="u1382-2" class="ax_default primary_button u1382" data-label="删除按钮" style="width: 60px; height: 25px; left: 1528px; top: 8px;visibility: inherit">
+            <div id="u1382-2_div" class="u1382_div" style="width: 60px; height: 25px;visibility: inherit"></div>
+            <div id="u1382-2_text" class="text u1382_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">编辑</span></p>
+            </div>
+          </div>
+
+          <!-- 删除按钮 (矩形) -->
+          <div id="u1383-2" class="ax_default primary_button u1383" data-label="删除按钮" style="width: 60px; height: 25px; left: 1604px; top: 8px;visibility: inherit">
+            <div id="u1383-2_div" class="u1383_div" style="width: 60px; height: 25px;visibility: inherit"></div>
+            <div id="u1383-2_text" class="text u1383_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">删除</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1372-3" class="preeval" style="width: 1676px; height: 40px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u1373-3" class="ax_default u1373" style="visibility: inherit" data-left="0" data-top="0" data-width="1676" data-height="40">
+
+            <!-- fx (矩形) -->
+            <div id="u1374-3" class="ax_default box_1 u1374" data-label="fx" style="width: 51px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u1374-3_div" class="u1374_div" style="width: 51px; height: 40px;visibility: inherit"></div>
+              <div id="u1374-3_text" class="text u1374_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- id (矩形) -->
+            <div id="u1375-3" class="ax_default box_1 u1375" data-label="id" style="width: 51px; height: 40px; left: 50px; top: 0px;visibility: inherit">
+              <div id="u1375-3_div" class="u1375_div" style="width: 51px; height: 40px;visibility: inherit"></div>
+              <div id="u1375-3_text" class="text u1375_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">3</span></p>
+              </div>
+            </div>
+
+            <!-- xm (矩形) -->
+            <div id="u1376-3" class="ax_default box_1 u1376" data-label="xm" style="width: 266px; height: 40px; left: 100px; top: 0px;visibility: inherit">
+              <div id="u1376-3_div" class="u1376_div" style="width: 266px; height: 40px;visibility: inherit"></div>
+              <div id="u1376-3_text" class="text u1376_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">部长</span></p>
+              </div>
+            </div>
+
+            <!-- dh (矩形) -->
+            <div id="u1377-3" class="ax_default box_1 u1377" data-label="dh" style="width: 1151px; height: 40px; left: 365px; top: 0px;visibility: inherit">
+              <div id="u1377-3_div" class="u1377_div" style="width: 1151px; height: 40px;visibility: inherit"></div>
+              <div id="u1377-3_text" class="text u1377_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">对自己所在的部门，进行管理，增删改查等</span></p>
+              </div>
+            </div>
+
+            <!-- cz (矩形) -->
+            <div id="u1378-3" class="ax_default box_1 u1378" data-label="cz" style="width: 161px; height: 40px; left: 1515px; top: 0px;visibility: inherit">
+              <div id="u1378-3_div" class="u1378_div" style="width: 161px; height: 40px;visibility: inherit"></div>
+              <div id="u1378-3_text" class="text u1378_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (组合) -->
+          <div id="u1379-3" class="ax_default u1379" style="visibility: inherit" data-left="15" data-top="10" data-width="20" data-height="20">
+
+            <!-- 复选框内 (矩形) -->
+            <div id="u1380-3" class="ax_default ellipse u1380" data-label="复选框内" style="width: 10px; height: 10px; left: 20px; top: 15px;display:none; visibility: hidden">
+              <div id="u1380-3_div" class="u1380_div" style="width: 10px; height: 10px;visibility: inherit"></div>
+              <div id="u1380-3_text" class="text u1380_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- 复选框边 (矩形) -->
+            <div id="u1381-3" class="ax_default ellipse u1381" data-label="复选框边" style="width: 20px; height: 20px; left: 15px; top: 10px;visibility: inherit">
+              <div id="u1381-3_div" class="u1381_div" style="width: 20px; height: 20px;visibility: inherit"></div>
+              <div id="u1381-3_text" class="text u1381_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 删除按钮 (矩形) -->
+          <div id="u1382-3" class="ax_default primary_button u1382" data-label="删除按钮" style="width: 60px; height: 25px; left: 1528px; top: 8px;visibility: inherit">
+            <div id="u1382-3_div" class="u1382_div" style="width: 60px; height: 25px;visibility: inherit"></div>
+            <div id="u1382-3_text" class="text u1382_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">编辑</span></p>
+            </div>
+          </div>
+
+          <!-- 删除按钮 (矩形) -->
+          <div id="u1383-3" class="ax_default primary_button u1383" data-label="删除按钮" style="width: 60px; height: 25px; left: 1604px; top: 8px;visibility: inherit">
+            <div id="u1383-3_div" class="u1383_div" style="width: 60px; height: 25px;visibility: inherit"></div>
+            <div id="u1383-3_text" class="text u1383_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">删除</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1372-4" class="preeval" style="width: 1676px; height: 40px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u1373-4" class="ax_default u1373" style="visibility: inherit" data-left="0" data-top="0" data-width="1676" data-height="40">
+
+            <!-- fx (矩形) -->
+            <div id="u1374-4" class="ax_default box_1 u1374" data-label="fx" style="width: 51px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u1374-4_div" class="u1374_div" style="width: 51px; height: 40px;visibility: inherit"></div>
+              <div id="u1374-4_text" class="text u1374_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- id (矩形) -->
+            <div id="u1375-4" class="ax_default box_1 u1375" data-label="id" style="width: 51px; height: 40px; left: 50px; top: 0px;visibility: inherit">
+              <div id="u1375-4_div" class="u1375_div" style="width: 51px; height: 40px;visibility: inherit"></div>
+              <div id="u1375-4_text" class="text u1375_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">4</span></p>
+              </div>
+            </div>
+
+            <!-- xm (矩形) -->
+            <div id="u1376-4" class="ax_default box_1 u1376" data-label="xm" style="width: 266px; height: 40px; left: 100px; top: 0px;visibility: inherit">
+              <div id="u1376-4_div" class="u1376_div" style="width: 266px; height: 40px;visibility: inherit"></div>
+              <div id="u1376-4_text" class="text u1376_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">组长</span></p>
+              </div>
+            </div>
+
+            <!-- dh (矩形) -->
+            <div id="u1377-4" class="ax_default box_1 u1377" data-label="dh" style="width: 1151px; height: 40px; left: 365px; top: 0px;visibility: inherit">
+              <div id="u1377-4_div" class="u1377_div" style="width: 1151px; height: 40px;visibility: inherit"></div>
+              <div id="u1377-4_text" class="text u1377_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">对自己所在的组，进行管理，增删改查等</span></p>
+              </div>
+            </div>
+
+            <!-- cz (矩形) -->
+            <div id="u1378-4" class="ax_default box_1 u1378" data-label="cz" style="width: 161px; height: 40px; left: 1515px; top: 0px;visibility: inherit">
+              <div id="u1378-4_div" class="u1378_div" style="width: 161px; height: 40px;visibility: inherit"></div>
+              <div id="u1378-4_text" class="text u1378_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (组合) -->
+          <div id="u1379-4" class="ax_default u1379" style="visibility: inherit" data-left="15" data-top="10" data-width="20" data-height="20">
+
+            <!-- 复选框内 (矩形) -->
+            <div id="u1380-4" class="ax_default ellipse u1380" data-label="复选框内" style="width: 10px; height: 10px; left: 20px; top: 15px;display:none; visibility: hidden">
+              <div id="u1380-4_div" class="u1380_div" style="width: 10px; height: 10px;visibility: inherit"></div>
+              <div id="u1380-4_text" class="text u1380_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- 复选框边 (矩形) -->
+            <div id="u1381-4" class="ax_default ellipse u1381" data-label="复选框边" style="width: 20px; height: 20px; left: 15px; top: 10px;visibility: inherit">
+              <div id="u1381-4_div" class="u1381_div" style="width: 20px; height: 20px;visibility: inherit"></div>
+              <div id="u1381-4_text" class="text u1381_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 删除按钮 (矩形) -->
+          <div id="u1382-4" class="ax_default primary_button u1382" data-label="删除按钮" style="width: 60px; height: 25px; left: 1528px; top: 8px;visibility: inherit">
+            <div id="u1382-4_div" class="u1382_div" style="width: 60px; height: 25px;visibility: inherit"></div>
+            <div id="u1382-4_text" class="text u1382_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">编辑</span></p>
+            </div>
+          </div>
+
+          <!-- 删除按钮 (矩形) -->
+          <div id="u1383-4" class="ax_default primary_button u1383" data-label="删除按钮" style="width: 60px; height: 25px; left: 1604px; top: 8px;visibility: inherit">
+            <div id="u1383-4_div" class="u1383_div" style="width: 60px; height: 25px;visibility: inherit"></div>
+            <div id="u1383-4_text" class="text u1383_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">删除</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1372-5" class="preeval" style="width: 1676px; height: 40px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u1373-5" class="ax_default u1373" style="visibility: inherit" data-left="0" data-top="0" data-width="1676" data-height="40">
+
+            <!-- fx (矩形) -->
+            <div id="u1374-5" class="ax_default box_1 u1374" data-label="fx" style="width: 51px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u1374-5_div" class="u1374_div" style="width: 51px; height: 40px;visibility: inherit"></div>
+              <div id="u1374-5_text" class="text u1374_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- id (矩形) -->
+            <div id="u1375-5" class="ax_default box_1 u1375" data-label="id" style="width: 51px; height: 40px; left: 50px; top: 0px;visibility: inherit">
+              <div id="u1375-5_div" class="u1375_div" style="width: 51px; height: 40px;visibility: inherit"></div>
+              <div id="u1375-5_text" class="text u1375_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">5</span></p>
+              </div>
+            </div>
+
+            <!-- xm (矩形) -->
+            <div id="u1376-5" class="ax_default box_1 u1376" data-label="xm" style="width: 266px; height: 40px; left: 100px; top: 0px;visibility: inherit">
+              <div id="u1376-5_div" class="u1376_div" style="width: 266px; height: 40px;visibility: inherit"></div>
+              <div id="u1376-5_text" class="text u1376_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">职员</span></p>
+              </div>
+            </div>
+
+            <!-- dh (矩形) -->
+            <div id="u1377-5" class="ax_default box_1 u1377" data-label="dh" style="width: 1151px; height: 40px; left: 365px; top: 0px;visibility: inherit">
+              <div id="u1377-5_div" class="u1377_div" style="width: 1151px; height: 40px;visibility: inherit"></div>
+              <div id="u1377-5_text" class="text u1377_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">对自己的工作增删改查等</span></p>
+              </div>
+            </div>
+
+            <!-- cz (矩形) -->
+            <div id="u1378-5" class="ax_default box_1 u1378" data-label="cz" style="width: 161px; height: 40px; left: 1515px; top: 0px;visibility: inherit">
+              <div id="u1378-5_div" class="u1378_div" style="width: 161px; height: 40px;visibility: inherit"></div>
+              <div id="u1378-5_text" class="text u1378_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (组合) -->
+          <div id="u1379-5" class="ax_default u1379" style="visibility: inherit" data-left="15" data-top="10" data-width="20" data-height="20">
+
+            <!-- 复选框内 (矩形) -->
+            <div id="u1380-5" class="ax_default ellipse u1380" data-label="复选框内" style="width: 10px; height: 10px; left: 20px; top: 15px;display:none; visibility: hidden">
+              <div id="u1380-5_div" class="u1380_div" style="width: 10px; height: 10px;visibility: inherit"></div>
+              <div id="u1380-5_text" class="text u1380_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- 复选框边 (矩形) -->
+            <div id="u1381-5" class="ax_default ellipse u1381" data-label="复选框边" style="width: 20px; height: 20px; left: 15px; top: 10px;visibility: inherit">
+              <div id="u1381-5_div" class="u1381_div" style="width: 20px; height: 20px;visibility: inherit"></div>
+              <div id="u1381-5_text" class="text u1381_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 删除按钮 (矩形) -->
+          <div id="u1382-5" class="ax_default primary_button u1382" data-label="删除按钮" style="width: 60px; height: 25px; left: 1528px; top: 8px;visibility: inherit">
+            <div id="u1382-5_div" class="u1382_div" style="width: 60px; height: 25px;visibility: inherit"></div>
+            <div id="u1382-5_text" class="text u1382_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">编辑</span></p>
+            </div>
+          </div>
+
+          <!-- 删除按钮 (矩形) -->
+          <div id="u1383-5" class="ax_default primary_button u1383" data-label="删除按钮" style="width: 60px; height: 25px; left: 1604px; top: 8px;visibility: inherit">
+            <div id="u1383-5_div" class="u1383_div" style="width: 60px; height: 25px;visibility: inherit"></div>
+            <div id="u1383-5_text" class="text u1383_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">删除</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u1372-6" class="preeval" style="width: 1676px; height: 40px;">
+
+          <!-- Unnamed (组合) -->
+          <div id="u1373-6" class="ax_default u1373" style="visibility: inherit" data-left="0" data-top="0" data-width="1676" data-height="40">
+
+            <!-- fx (矩形) -->
+            <div id="u1374-6" class="ax_default box_1 u1374" data-label="fx" style="width: 51px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u1374-6_div" class="u1374_div" style="width: 51px; height: 40px;visibility: inherit"></div>
+              <div id="u1374-6_text" class="text u1374_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- id (矩形) -->
+            <div id="u1375-6" class="ax_default box_1 u1375" data-label="id" style="width: 51px; height: 40px; left: 50px; top: 0px;visibility: inherit">
+              <div id="u1375-6_div" class="u1375_div" style="width: 51px; height: 40px;visibility: inherit"></div>
+              <div id="u1375-6_text" class="text u1375_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">6</span></p>
+              </div>
+            </div>
+
+            <!-- xm (矩形) -->
+            <div id="u1376-6" class="ax_default box_1 u1376" data-label="xm" style="width: 266px; height: 40px; left: 100px; top: 0px;visibility: inherit">
+              <div id="u1376-6_div" class="u1376_div" style="width: 266px; height: 40px;visibility: inherit"></div>
+              <div id="u1376-6_text" class="text u1376_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">保安</span></p>
+              </div>
+            </div>
+
+            <!-- dh (矩形) -->
+            <div id="u1377-6" class="ax_default box_1 u1377" data-label="dh" style="width: 1151px; height: 40px; left: 365px; top: 0px;visibility: inherit">
+              <div id="u1377-6_div" class="u1377_div" style="width: 1151px; height: 40px;visibility: inherit"></div>
+              <div id="u1377-6_text" class="text u1377_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">对自己的工作增删改查等</span></p>
+              </div>
+            </div>
+
+            <!-- cz (矩形) -->
+            <div id="u1378-6" class="ax_default box_1 u1378" data-label="cz" style="width: 161px; height: 40px; left: 1515px; top: 0px;visibility: inherit">
+              <div id="u1378-6_div" class="u1378_div" style="width: 161px; height: 40px;visibility: inherit"></div>
+              <div id="u1378-6_text" class="text u1378_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (组合) -->
+          <div id="u1379-6" class="ax_default u1379" style="visibility: inherit" data-left="15" data-top="10" data-width="20" data-height="20">
+
+            <!-- 复选框内 (矩形) -->
+            <div id="u1380-6" class="ax_default ellipse u1380" data-label="复选框内" style="width: 10px; height: 10px; left: 20px; top: 15px;display:none; visibility: hidden">
+              <div id="u1380-6_div" class="u1380_div" style="width: 10px; height: 10px;visibility: inherit"></div>
+              <div id="u1380-6_text" class="text u1380_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- 复选框边 (矩形) -->
+            <div id="u1381-6" class="ax_default ellipse u1381" data-label="复选框边" style="width: 20px; height: 20px; left: 15px; top: 10px;visibility: inherit">
+              <div id="u1381-6_div" class="u1381_div" style="width: 20px; height: 20px;visibility: inherit"></div>
+              <div id="u1381-6_text" class="text u1381_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 删除按钮 (矩形) -->
+          <div id="u1382-6" class="ax_default primary_button u1382" data-label="删除按钮" style="width: 60px; height: 25px; left: 1528px; top: 8px;visibility: inherit">
+            <div id="u1382-6_div" class="u1382_div" style="width: 60px; height: 25px;visibility: inherit"></div>
+            <div id="u1382-6_text" class="text u1382_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">编辑</span></p>
+            </div>
+          </div>
+
+          <!-- 删除按钮 (矩形) -->
+          <div id="u1383-6" class="ax_default primary_button u1383" data-label="删除按钮" style="width: 60px; height: 25px; left: 1604px; top: 8px;visibility: inherit">
+            <div id="u1383-6_div" class="u1383_div" style="width: 60px; height: 25px;visibility: inherit"></div>
+            <div id="u1383-6_text" class="text u1383_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">删除</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u1384" class="ax_default" data-left="41" data-top="149" data-width="20" data-height="20">
+
+        <!-- 复选框内 (矩形) -->
+        <div id="u1385" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+          <div id="u1385_div" class=""></div>
+          <div id="u1385_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- 复选框边 (矩形) -->
+        <div id="u1386" class="ax_default ellipse" data-label="复选框边">
+          <div id="u1386_div" class=""></div>
+          <div id="u1386_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 成功 (矩形) -->
+      <div id="u1387" class="ax_default primary_button ax_default_hidden" data-label="成功" style="display:none; visibility: hidden">
+        <div id="u1387_div" class=""></div>
+        <div id="u1387_text" class="text ">
+          <p><span style="text-decoration:none;">成功</span></p>
+        </div>
+      </div>
+
+      <!-- 已删除 (矩形) -->
+      <div id="u1388" class="ax_default primary_button ax_default_hidden" data-label="已删除" style="display:none; visibility: hidden">
+        <div id="u1388_div" class=""></div>
+        <div id="u1388_text" class="text ">
+          <p><span style="text-decoration:none;">已删除</span></p>
+        </div>
+      </div>
+
+      <!-- 添加成功 (矩形) -->
+      <div id="u1389" class="ax_default primary_button ax_default_hidden" data-label="添加成功" style="display:none; visibility: hidden">
+        <div id="u1389_div" class=""></div>
+        <div id="u1389_text" class="text ">
+          <p><span style="text-decoration:none;">添加成功</span></p>
+        </div>
+      </div>
+
+      <!-- 已删除数据 (矩形) -->
+      <div id="u1390" class="ax_default primary_button ax_default_hidden" data-label="已删除数据" style="display:none; visibility: hidden">
+        <div id="u1390_div" class=""></div>
+        <div id="u1390_text" class="text ">
+          <p><span style="text-decoration:none;">请选择数据</span></p>
+        </div>
+      </div>
+
+      <!-- 确定删除吗 (组合) -->
+      <div id="u1391" class="ax_default ax_default_hidden" data-label="确定删除吗" style="display:none; visibility: hidden" data-left="719" data-top="238" data-width="267" data-height="150">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1392" class="ax_default box_1">
+          <div id="u1392_div" class=""></div>
+          <div id="u1392_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图像) -->
+        <div id="u1393" class="ax_default _图片">
+          <img id="u1393_img" class="img " src="images/安全巡检记录/u484.png"/>
+          <div id="u1393_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1394" class="ax_default box_1">
+          <div id="u1394_div" class=""></div>
+          <div id="u1394_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (线) -->
+        <div id="u1395" class="ax_default line">
+          <img id="u1395_img" class="img " src="images/安全巡检记录/u486.svg"/>
+          <div id="u1395_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1396" class="ax_default label">
+          <div id="u1396_div" class=""></div>
+          <div id="u1396_text" class="text ">
+            <p><span style="text-decoration:none;">信息</span></p>
+          </div>
+        </div>
+
+        <!-- 确定按钮 (矩形) -->
+        <div id="u1397" class="ax_default primary_button" data-label="确定按钮">
+          <div id="u1397_div" class=""></div>
+          <div id="u1397_text" class="text ">
+            <p><span style="text-decoration:none;">确定</span></p>
+          </div>
+        </div>
+
+        <!-- 取消按钮 (矩形) -->
+        <div id="u1398" class="ax_default primary_button" data-label="取消按钮">
+          <div id="u1398_div" class=""></div>
+          <div id="u1398_text" class="text ">
+            <p><span style="text-decoration:none;">取消</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1399" class="ax_default label">
+          <div id="u1399_div" class=""></div>
+          <div id="u1399_text" class="text ">
+            <p><span style="text-decoration:none;">确定要删除吗？</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 上一页 (矩形) -->
+      <div id="u1400" class="ax_default primary_button" data-label="上一页">
+        <div id="u1400_div" class=""></div>
+        <div id="u1400_text" class="text ">
+          <p><span style="text-decoration:none;">上一页</span></p>
+        </div>
+      </div>
+
+      <!-- 页1 (矩形) -->
+      <div id="u1401" class="ax_default primary_button" data-label="页1" selectiongroup="页码">
+        <div id="u1401_div" class=""></div>
+        <div id="u1401_text" class="text ">
+          <p><span style="text-decoration:none;">1</span></p>
+        </div>
+      </div>
+
+      <!-- 下一页 (矩形) -->
+      <div id="u1402" class="ax_default primary_button" data-label="下一页">
+        <div id="u1402_div" class=""></div>
+        <div id="u1402_text" class="text ">
+          <p><span style="text-decoration:none;">下一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1403" class="ax_default label">
+        <div id="u1403_div" class=""></div>
+        <div id="u1403_text" class="text ">
+          <p><span style="text-decoration:none;">共</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1404" class="ax_default label">
+        <div id="u1404_div" class=""></div>
+        <div id="u1404_text" class="text ">
+          <p><span style="text-decoration:none;">条</span></p>
+        </div>
+      </div>
+
+      <!-- 条数 (矩形) -->
+      <div id="u1405" class="ax_default label" data-label="条数">
+        <div id="u1405_div" class=""></div>
+        <div id="u1405_text" class="text ">
+          <p><span style="text-decoration:none;">条</span></p>
+        </div>
+      </div>
+
+      <!-- 页2 (矩形) -->
+      <div id="u1406" class="ax_default primary_button ax_default_hidden" data-label="页2" selectiongroup="页码" style="display:none; visibility: hidden">
+        <div id="u1406_div" class=""></div>
+        <div id="u1406_text" class="text ">
+          <p><span style="text-decoration:none;">2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1407" class="ax_default box_1">
+        <div id="u1407_div" class=""></div>
+        <div id="u1407_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 跳转 (文本框(单行)) -->
+      <div id="u1408" class="ax_default text_field" data-label="跳转">
+        <div id="u1408_div" class=""></div>
+        <input id="u1408_input" type="text" value="1" class="u1408_input"/>
+      </div>
+
+      <!-- 确定 (矩形) -->
+      <div id="u1409" class="ax_default primary_button" data-label="确定">
+        <div id="u1409_div" class=""></div>
+        <div id="u1409_text" class="text ">
+          <p><span style="text-decoration:none;">确定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1410" class="ax_default label">
+        <div id="u1410_div" class=""></div>
+        <div id="u1410_text" class="text ">
+          <p><span style="text-decoration:none;">跳至</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1411" class="ax_default label">
+        <div id="u1411_div" class=""></div>
+        <div id="u1411_text" class="text ">
+          <p><span style="text-decoration:none;">页</span></p>
+        </div>
+      </div>
+
+      <!-- 向下 (形状) -->
+      <div id="u1412" class="ax_default icon" data-label="向下">
+        <img id="u1412_img" class="img " src="images/安全巡检记录/向下_u503.svg"/>
+        <div id="u1412_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 向下 (形状) -->
+      <div id="u1413" class="ax_default icon" data-label="向下">
+        <img id="u1413_img" class="img " src="images/安全巡检记录/向下_u503.svg"/>
+        <div id="u1413_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 外 (组合) -->
+      <div id="u1414" class="ax_default ax_default_hidden" data-label="外" style="display:none; visibility: hidden" data-left="82" data-top="149" data-width="20" data-height="20">
+
+        <!-- 复选框内 (矩形) -->
+        <div id="u1415" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+          <div id="u1415_div" class=""></div>
+          <div id="u1415_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- 复选框边 (矩形) -->
+        <div id="u1416" class="ax_default ellipse" data-label="复选框边">
+          <div id="u1416_div" class=""></div>
+          <div id="u1416_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 角色筛选 (组合) -->
+      <div id="u1417" class="ax_default" data-label="角色筛选" data-left="25" data-top="29" data-width="268" data-height="40">
+
+        <!-- 角色筛选 (中继器) -->
+        <div id="u1418" class="ax_default ax_default_hidden" data-label="角色筛选" style="display:none; visibility: hidden">
+          <script id="u1418_script" type="axure-repeater-template" data-label="角色筛选">
+
+            <!-- 文本框 (文本框(单行)) -->
+            <div id="u1419" class="ax_default text_field ax_default_hidden u1419" data-label="文本框" style="display:none; visibility: hidden">
+              <div id="u1419_div" class="u1419_div"></div>
+              <input id="u1419_input" type="text" value="" class="u1419_input"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u1420" class="ax_default box_1 u1420">
+              <div id="u1420_div" class="u1420_div"></div>
+              <div id="u1420_text" class="text u1420_text" style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </script>
+          <div id="u1418-1" class="preeval" style="width: 144px; height: 35px;">
+
+            <!-- 文本框 (文本框(单行)) -->
+            <div id="u1419-1" class="ax_default text_field u1419" data-label="文本框" style="width: 90px; height: 25px; left: 4px; top: 2px;display:none; visibility: hidden">
+              <div id="u1419-1_div" class="u1419_div" style="width: 90px; height: 25px;visibility: inherit"></div>
+              <input id="u1419-1_input" type="text" value="超级管理员" class="u1419_input"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u1420-1" class="ax_default box_1 u1420" style="width: 144px; height: 35px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u1420-1_div" class="u1420_div" style="width: 144px; height: 35px;visibility: inherit"></div>
+              <div id="u1420-1_text" class="text u1420_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">超级管理员</span></p>
+              </div>
+            </div>
+          </div>
+          <div id="u1418-2" class="preeval" style="width: 144px; height: 35px;">
+
+            <!-- 文本框 (文本框(单行)) -->
+            <div id="u1419-2" class="ax_default text_field u1419" data-label="文本框" style="width: 90px; height: 25px; left: 4px; top: 2px;display:none; visibility: hidden">
+              <div id="u1419-2_div" class="u1419_div" style="width: 90px; height: 25px;visibility: inherit"></div>
+              <input id="u1419-2_input" type="text" value="经理" class="u1419_input"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u1420-2" class="ax_default box_1 u1420" style="width: 144px; height: 35px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u1420-2_div" class="u1420_div" style="width: 144px; height: 35px;visibility: inherit"></div>
+              <div id="u1420-2_text" class="text u1420_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">经理</span></p>
+              </div>
+            </div>
+          </div>
+          <div id="u1418-3" class="preeval" style="width: 144px; height: 35px;">
+
+            <!-- 文本框 (文本框(单行)) -->
+            <div id="u1419-3" class="ax_default text_field u1419" data-label="文本框" style="width: 90px; height: 25px; left: 4px; top: 2px;display:none; visibility: hidden">
+              <div id="u1419-3_div" class="u1419_div" style="width: 90px; height: 25px;visibility: inherit"></div>
+              <input id="u1419-3_input" type="text" value="部长" class="u1419_input"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u1420-3" class="ax_default box_1 u1420" style="width: 144px; height: 35px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u1420-3_div" class="u1420_div" style="width: 144px; height: 35px;visibility: inherit"></div>
+              <div id="u1420-3_text" class="text u1420_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">部长</span></p>
+              </div>
+            </div>
+          </div>
+          <div id="u1418-4" class="preeval" style="width: 144px; height: 35px;">
+
+            <!-- 文本框 (文本框(单行)) -->
+            <div id="u1419-4" class="ax_default text_field u1419" data-label="文本框" style="width: 90px; height: 25px; left: 4px; top: 2px;display:none; visibility: hidden">
+              <div id="u1419-4_div" class="u1419_div" style="width: 90px; height: 25px;visibility: inherit"></div>
+              <input id="u1419-4_input" type="text" value="组长" class="u1419_input"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u1420-4" class="ax_default box_1 u1420" style="width: 144px; height: 35px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u1420-4_div" class="u1420_div" style="width: 144px; height: 35px;visibility: inherit"></div>
+              <div id="u1420-4_text" class="text u1420_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">组长</span></p>
+              </div>
+            </div>
+          </div>
+          <div id="u1418-5" class="preeval" style="width: 144px; height: 35px;">
+
+            <!-- 文本框 (文本框(单行)) -->
+            <div id="u1419-5" class="ax_default text_field u1419" data-label="文本框" style="width: 90px; height: 25px; left: 4px; top: 2px;display:none; visibility: hidden">
+              <div id="u1419-5_div" class="u1419_div" style="width: 90px; height: 25px;visibility: inherit"></div>
+              <input id="u1419-5_input" type="text" value="保安" class="u1419_input"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u1420-5" class="ax_default box_1 u1420" style="width: 144px; height: 35px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u1420-5_div" class="u1420_div" style="width: 144px; height: 35px;visibility: inherit"></div>
+              <div id="u1420-5_text" class="text u1420_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">保安</span></p>
+              </div>
+            </div>
+          </div>
+          <div id="u1418-6" class="preeval" style="width: 144px; height: 35px;">
+
+            <!-- 文本框 (文本框(单行)) -->
+            <div id="u1419-6" class="ax_default text_field u1419" data-label="文本框" style="width: 90px; height: 25px; left: 4px; top: 2px;display:none; visibility: hidden">
+              <div id="u1419-6_div" class="u1419_div" style="width: 90px; height: 25px;visibility: inherit"></div>
+              <input id="u1419-6_input" type="text" value="职员" class="u1419_input"/>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u1420-6" class="ax_default box_1 u1420" style="width: 144px; height: 35px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u1420-6_div" class="u1420_div" style="width: 144px; height: 35px;visibility: inherit"></div>
+              <div id="u1420-6_text" class="text u1420_text" style="visibility: inherit">
+                <p><span style="text-decoration:none;">职员</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1421" class="ax_default box_2">
+          <div id="u1421_div" class=""></div>
+          <div id="u1421_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- 向下 (形状) -->
+        <div id="u1422" class="ax_default icon" data-label="向下">
+          <img id="u1422_img" class="img " src="images/安全巡检记录/向下_u513.svg"/>
+          <div id="u1422_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- 角色筛选 (文本框(单行)) -->
+        <div id="u1423" class="ax_default text_field" data-label="角色筛选">
+          <div id="u1423_div" class=""></div>
+          <input id="u1423_input" type="text" value="" class="u1423_input" maxlength="11"/>
+        </div>
+      </div>
+
+      <!-- 查找按钮 (组合) -->
+      <div id="u1424" class="ax_default" data-label="查找按钮" data-left="293" data-top="29" data-width="58" data-height="40">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1425" class="ax_default primary_button">
+          <div id="u1425_div" class=""></div>
+          <div id="u1425_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u1426" class="ax_default icon1">
+          <img id="u1426_img" class="img " src="images/安全巡检记录/u524.svg"/>
+          <div id="u1426_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 重置按钮 (矩形) -->
+      <div id="u1427" class="ax_default primary_button" data-label="重置按钮">
+        <div id="u1427_div" class=""></div>
+        <div id="u1427_text" class="text ">
+          <p><span style="text-decoration:none;">重置</span></p>
+        </div>
+      </div>
+
+      <!-- 添加 (组合) -->
+      <div id="u1428" class="ax_default ax_default_hidden" data-label="添加" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="1713" data-height="811">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1429" class="ax_default box_1">
+          <div id="u1429_div" class=""></div>
+          <div id="u1429_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1430" class="ax_default box_1">
+          <div id="u1430_div" class=""></div>
+          <div id="u1430_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1431" class="ax_default box_1">
+          <div id="u1431_div" class=""></div>
+          <div id="u1431_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (线) -->
+        <div id="u1432" class="ax_default line">
+          <img id="u1432_img" class="img " src="images/安全隐患管理/u893.svg"/>
+          <div id="u1432_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1433" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1434" class="ax_default box_1">
+            <div id="u1434_div" class=""></div>
+            <div id="u1434_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 角色 (文本框(单行)) -->
+          <div id="u1435" class="ax_default text_field" data-label="角色">
+            <div id="u1435_div" class=""></div>
+            <input id="u1435_input" type="text" value="" class="u1435_input"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1436" class="ax_default label">
+          <div id="u1436_div" class=""></div>
+          <div id="u1436_text" class="text ">
+            <p><span style="text-decoration:none;">添加角色</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1437" class="ax_default label">
+          <div id="u1437_div" class=""></div>
+          <div id="u1437_text" class="text ">
+            <p><span style="text-decoration:none;">角色名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1438" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1439" class="ax_default box_1">
+            <div id="u1439_div" class=""></div>
+            <div id="u1439_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 备注 (文本框(多行)) -->
+          <div id="u1440" class="ax_default text_area" data-label="备注">
+            <div id="u1440_div" class=""></div>
+            <textarea id="u1440_input" class="u1440_input"></textarea>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1441" class="ax_default label">
+          <div id="u1441_div" class=""></div>
+          <div id="u1441_text" class="text ">
+            <p><span style="text-decoration:none;">备注</span></p>
+          </div>
+        </div>
+
+        <!-- 删除按钮 (矩形) -->
+        <div id="u1442" class="ax_default primary_button" data-label="删除按钮">
+          <div id="u1442_div" class=""></div>
+          <div id="u1442_text" class="text ">
+            <p><span style="text-decoration:none;">确定</span></p>
+          </div>
+        </div>
+
+        <!-- 删除按钮 (矩形) -->
+        <div id="u1443" class="ax_default primary_button" data-label="删除按钮">
+          <div id="u1443_div" class=""></div>
+          <div id="u1443_text" class="text ">
+            <p><span style="text-decoration:none;">取消</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图像) -->
+        <div id="u1444" class="ax_default _图片">
+          <img id="u1444_img" class="img " src="images/安全巡检记录/u484.png"/>
+          <div id="u1444_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1445" class="ax_default label">
+          <div id="u1445_div" class=""></div>
+          <div id="u1445_text" class="text ">
+            <p><span style="text-decoration:none;">权限设置</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1446" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1447" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1447_div" class=""></div>
+            <div id="u1447_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1448" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1448_div" class=""></div>
+            <div id="u1448_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1449" class="ax_default label">
+            <div id="u1449_div" class=""></div>
+            <div id="u1449_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1450" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1451" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1451_div" class=""></div>
+            <div id="u1451_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1452" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1452_div" class=""></div>
+            <div id="u1452_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1453" class="ax_default label">
+            <div id="u1453_div" class=""></div>
+            <div id="u1453_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1454" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1455" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1455_div" class=""></div>
+            <div id="u1455_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1456" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1456_div" class=""></div>
+            <div id="u1456_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1457" class="ax_default label">
+            <div id="u1457_div" class=""></div>
+            <div id="u1457_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1458" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1459" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1459_div" class=""></div>
+            <div id="u1459_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1460" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1460_div" class=""></div>
+            <div id="u1460_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1461" class="ax_default label">
+            <div id="u1461_div" class=""></div>
+            <div id="u1461_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1462" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1463" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1463_div" class=""></div>
+            <div id="u1463_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1464" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1464_div" class=""></div>
+            <div id="u1464_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1465" class="ax_default label">
+            <div id="u1465_div" class=""></div>
+            <div id="u1465_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1466" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1467" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1467_div" class=""></div>
+            <div id="u1467_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1468" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1468_div" class=""></div>
+            <div id="u1468_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1469" class="ax_default label">
+            <div id="u1469_div" class=""></div>
+            <div id="u1469_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1470" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1471" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1471_div" class=""></div>
+            <div id="u1471_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1472" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1472_div" class=""></div>
+            <div id="u1472_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1473" class="ax_default label">
+            <div id="u1473_div" class=""></div>
+            <div id="u1473_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1474" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1475" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1475_div" class=""></div>
+            <div id="u1475_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1476" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1476_div" class=""></div>
+            <div id="u1476_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1477" class="ax_default label">
+            <div id="u1477_div" class=""></div>
+            <div id="u1477_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1478" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1479" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1479_div" class=""></div>
+            <div id="u1479_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1480" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1480_div" class=""></div>
+            <div id="u1480_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1481" class="ax_default label">
+            <div id="u1481_div" class=""></div>
+            <div id="u1481_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1482" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1483" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1483_div" class=""></div>
+            <div id="u1483_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1484" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1484_div" class=""></div>
+            <div id="u1484_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1485" class="ax_default label">
+            <div id="u1485_div" class=""></div>
+            <div id="u1485_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1486" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1487" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1487_div" class=""></div>
+            <div id="u1487_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1488" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1488_div" class=""></div>
+            <div id="u1488_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1489" class="ax_default label">
+            <div id="u1489_div" class=""></div>
+            <div id="u1489_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1490" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1491" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1491_div" class=""></div>
+            <div id="u1491_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1492" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1492_div" class=""></div>
+            <div id="u1492_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1493" class="ax_default label">
+            <div id="u1493_div" class=""></div>
+            <div id="u1493_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1494" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1495" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1495_div" class=""></div>
+            <div id="u1495_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1496" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1496_div" class=""></div>
+            <div id="u1496_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1497" class="ax_default label">
+            <div id="u1497_div" class=""></div>
+            <div id="u1497_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1498" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1499" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1499_div" class=""></div>
+            <div id="u1499_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1500" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1500_div" class=""></div>
+            <div id="u1500_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1501" class="ax_default label">
+            <div id="u1501_div" class=""></div>
+            <div id="u1501_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1502" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1503" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1503_div" class=""></div>
+            <div id="u1503_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1504" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1504_div" class=""></div>
+            <div id="u1504_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1505" class="ax_default label">
+            <div id="u1505_div" class=""></div>
+            <div id="u1505_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1506" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1507" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1507_div" class=""></div>
+            <div id="u1507_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1508" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1508_div" class=""></div>
+            <div id="u1508_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1509" class="ax_default label">
+            <div id="u1509_div" class=""></div>
+            <div id="u1509_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 编辑 (组合) -->
+      <div id="u1510" class="ax_default ax_default_hidden" data-label="编辑" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="1713" data-height="811">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1511" class="ax_default box_1">
+          <div id="u1511_div" class=""></div>
+          <div id="u1511_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1512" class="ax_default box_1">
+          <div id="u1512_div" class=""></div>
+          <div id="u1512_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1513" class="ax_default box_1">
+          <div id="u1513_div" class=""></div>
+          <div id="u1513_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (线) -->
+        <div id="u1514" class="ax_default line">
+          <img id="u1514_img" class="img " src="images/安全隐患管理/u893.svg"/>
+          <div id="u1514_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1515" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1516" class="ax_default box_1">
+            <div id="u1516_div" class=""></div>
+            <div id="u1516_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 角色 (文本框(单行)) -->
+          <div id="u1517" class="ax_default text_field" data-label="角色">
+            <div id="u1517_div" class=""></div>
+            <input id="u1517_input" type="text" value="" class="u1517_input"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1518" class="ax_default label">
+          <div id="u1518_div" class=""></div>
+          <div id="u1518_text" class="text ">
+            <p><span style="text-decoration:none;">编辑角色</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1519" class="ax_default label">
+          <div id="u1519_div" class=""></div>
+          <div id="u1519_text" class="text ">
+            <p><span style="text-decoration:none;">角色名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1520" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1521" class="ax_default box_1">
+            <div id="u1521_div" class=""></div>
+            <div id="u1521_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 备注 (文本框(多行)) -->
+          <div id="u1522" class="ax_default text_area" data-label="备注">
+            <div id="u1522_div" class=""></div>
+            <textarea id="u1522_input" class="u1522_input"></textarea>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1523" class="ax_default label">
+          <div id="u1523_div" class=""></div>
+          <div id="u1523_text" class="text ">
+            <p><span style="text-decoration:none;">备注</span></p>
+          </div>
+        </div>
+
+        <!-- 确定按钮 (矩形) -->
+        <div id="u1524" class="ax_default primary_button" data-label="确定按钮">
+          <div id="u1524_div" class=""></div>
+          <div id="u1524_text" class="text ">
+            <p><span style="text-decoration:none;">确定</span></p>
+          </div>
+        </div>
+
+        <!-- 取消按钮 (矩形) -->
+        <div id="u1525" class="ax_default primary_button" data-label="取消按钮">
+          <div id="u1525_div" class=""></div>
+          <div id="u1525_text" class="text ">
+            <p><span style="text-decoration:none;">取消</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图像) -->
+        <div id="u1526" class="ax_default _图片">
+          <img id="u1526_img" class="img " src="images/安全巡检记录/u484.png"/>
+          <div id="u1526_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1527" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1528" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1528_div" class=""></div>
+            <div id="u1528_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1529" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1529_div" class=""></div>
+            <div id="u1529_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1530" class="ax_default label">
+            <div id="u1530_div" class=""></div>
+            <div id="u1530_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1531" class="ax_default label">
+          <div id="u1531_div" class=""></div>
+          <div id="u1531_text" class="text ">
+            <p><span style="text-decoration:none;">权限设置</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1532" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1533" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1533_div" class=""></div>
+            <div id="u1533_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1534" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1534_div" class=""></div>
+            <div id="u1534_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1535" class="ax_default label">
+            <div id="u1535_div" class=""></div>
+            <div id="u1535_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1536" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1537" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1537_div" class=""></div>
+            <div id="u1537_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1538" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1538_div" class=""></div>
+            <div id="u1538_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1539" class="ax_default label">
+            <div id="u1539_div" class=""></div>
+            <div id="u1539_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1540" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1541" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1541_div" class=""></div>
+            <div id="u1541_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1542" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1542_div" class=""></div>
+            <div id="u1542_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1543" class="ax_default label">
+            <div id="u1543_div" class=""></div>
+            <div id="u1543_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1544" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1545" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1545_div" class=""></div>
+            <div id="u1545_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1546" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1546_div" class=""></div>
+            <div id="u1546_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1547" class="ax_default label">
+            <div id="u1547_div" class=""></div>
+            <div id="u1547_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1548" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1549" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1549_div" class=""></div>
+            <div id="u1549_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1550" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1550_div" class=""></div>
+            <div id="u1550_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1551" class="ax_default label">
+            <div id="u1551_div" class=""></div>
+            <div id="u1551_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1552" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1553" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1553_div" class=""></div>
+            <div id="u1553_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1554" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1554_div" class=""></div>
+            <div id="u1554_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1555" class="ax_default label">
+            <div id="u1555_div" class=""></div>
+            <div id="u1555_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1556" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1557" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1557_div" class=""></div>
+            <div id="u1557_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1558" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1558_div" class=""></div>
+            <div id="u1558_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1559" class="ax_default label">
+            <div id="u1559_div" class=""></div>
+            <div id="u1559_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1560" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1561" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1561_div" class=""></div>
+            <div id="u1561_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1562" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1562_div" class=""></div>
+            <div id="u1562_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1563" class="ax_default label">
+            <div id="u1563_div" class=""></div>
+            <div id="u1563_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1564" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1565" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1565_div" class=""></div>
+            <div id="u1565_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1566" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1566_div" class=""></div>
+            <div id="u1566_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1567" class="ax_default label">
+            <div id="u1567_div" class=""></div>
+            <div id="u1567_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1568" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1569" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1569_div" class=""></div>
+            <div id="u1569_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1570" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1570_div" class=""></div>
+            <div id="u1570_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1571" class="ax_default label">
+            <div id="u1571_div" class=""></div>
+            <div id="u1571_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1572" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1573" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1573_div" class=""></div>
+            <div id="u1573_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1574" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1574_div" class=""></div>
+            <div id="u1574_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1575" class="ax_default label">
+            <div id="u1575_div" class=""></div>
+            <div id="u1575_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1576" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1577" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1577_div" class=""></div>
+            <div id="u1577_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1578" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1578_div" class=""></div>
+            <div id="u1578_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1579" class="ax_default label">
+            <div id="u1579_div" class=""></div>
+            <div id="u1579_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1580" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1581" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1581_div" class=""></div>
+            <div id="u1581_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1582" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1582_div" class=""></div>
+            <div id="u1582_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1583" class="ax_default label">
+            <div id="u1583_div" class=""></div>
+            <div id="u1583_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1584" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1585" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1585_div" class=""></div>
+            <div id="u1585_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1586" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1586_div" class=""></div>
+            <div id="u1586_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1587" class="ax_default label">
+            <div id="u1587_div" class=""></div>
+            <div id="u1587_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u1588" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- 复选框内 (矩形) -->
+          <div id="u1589" class="ax_default ellipse ax_default_hidden" data-label="复选框内" style="display:none; visibility: hidden">
+            <div id="u1589_div" class=""></div>
+            <div id="u1589_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复选框边 (矩形) -->
+          <div id="u1590" class="ax_default ellipse" data-label="复选框边">
+            <div id="u1590_div" class=""></div>
+            <div id="u1590_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u1591" class="ax_default label">
+            <div id="u1591_div" class=""></div>
+            <div id="u1591_text" class="text ">
+              <p><span style="text-decoration:none;">权限1</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
