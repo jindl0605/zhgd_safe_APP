@@ -1,0 +1,921 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>数据库备份</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/数据库备份/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/数据库备份/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 数据库列表 (中继器) -->
+      <div id="u0" class="ax_default" data-label="数据库列表">
+        <script id="u0_script" type="axure-repeater-template" data-label="数据库列表">
+
+          <!-- num (矩形) -->
+          <div id="u1" class="ax_default _默认样式 u1" data-label="num">
+            <div id="u1_div" class="u1_div"></div>
+            <div id="u1_text" class="text u1_text" style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- title (矩形) -->
+          <div id="u2" class="ax_default _默认样式 u2" data-label="title">
+            <div id="u2_div" class="u2_div"></div>
+            <div id="u2_text" class="text u2_text" style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 检查人 (矩形) -->
+          <div id="u3" class="ax_default _默认样式 u3" data-label="检查人">
+            <div id="u3_div" class="u3_div"></div>
+            <div id="u3_text" class="text u3_text" style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 责任人 (矩形) -->
+          <div id="u4" class="ax_default _默认样式 u4" data-label="责任人">
+            <div id="u4_div" class="u4_div"></div>
+            <div id="u4_text" class="text u4_text" style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 整改人 (矩形) -->
+          <div id="u5" class="ax_default _默认样式 u5" data-label="整改人">
+            <div id="u5_div" class="u5_div"></div>
+            <div id="u5_text" class="text u5_text" style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 复查人 (矩形) -->
+          <div id="u6" class="ax_default _默认样式 u6" data-label="复查人">
+            <div id="u6_div" class="u6_div"></div>
+            <div id="u6_text" class="text u6_text" style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 等级 (矩形) -->
+          <div id="u7" class="ax_default _默认样式 u7" data-label="等级">
+            <div id="u7_div" class="u7_div"></div>
+            <div id="u7_text" class="text u7_text" style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 类型 (矩形) -->
+          <div id="u8" class="ax_default _默认样式 u8" data-label="类型">
+            <div id="u8_div" class="u8_div"></div>
+            <div id="u8_text" class="text u8_text" style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 状态 (矩形) -->
+          <div id="u9" class="ax_default _默认样式 u9" data-label="状态">
+            <div id="u9_div" class="u9_div"></div>
+            <div id="u9_text" class="text u9_text" style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 数据类型 (矩形) -->
+          <div id="u10" class="ax_default _默认样式 u10" data-label="数据类型">
+            <div id="u10_div" class="u10_div"></div>
+            <div id="u10_text" class="text u10_text" style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 整改时限 (矩形) -->
+          <div id="u11" class="ax_default _默认样式 u11" data-label="整改时限">
+            <div id="u11_div" class="u11_div"></div>
+            <div id="u11_text" class="text u11_text" style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </script>
+        <div id="u0-1" class="preeval" style="width: 1060px; height: 34px;">
+
+          <!-- num (矩形) -->
+          <div id="u1-1" class="ax_default _默认样式 u1" data-label="num" style="width: 39px; height: 34px; left: 0px; top: 0px;visibility: inherit">
+            <div id="u1-1_div" class="u1_div" style="width: 39px; height: 34px;visibility: inherit"></div>
+            <div id="u1-1_text" class="text u1_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">1</span></p>
+            </div>
+          </div>
+
+          <!-- title (矩形) -->
+          <div id="u2-1" class="ax_default _默认样式 u2" data-label="title" style="width: 94px; height: 34px; left: 39px; top: 0px;visibility: inherit">
+            <div id="u2-1_div" class="u2_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u2-1_text" class="text u2_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">围墙</span></p>
+            </div>
+          </div>
+
+          <!-- 检查人 (矩形) -->
+          <div id="u3-1" class="ax_default _默认样式 u3" data-label="检查人" style="width: 94px; height: 34px; left: 133px; top: 0px;visibility: inherit">
+            <div id="u3-1_div" class="u3_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u3-1_text" class="text u3_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">李四</span></p>
+            </div>
+          </div>
+
+          <!-- 责任人 (矩形) -->
+          <div id="u4-1" class="ax_default _默认样式 u4" data-label="责任人" style="width: 94px; height: 34px; left: 227px; top: 0px;visibility: inherit">
+            <div id="u4-1_div" class="u4_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u4-1_text" class="text u4_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">无</span></p>
+            </div>
+          </div>
+
+          <!-- 整改人 (矩形) -->
+          <div id="u5-1" class="ax_default _默认样式 u5" data-label="整改人" style="width: 94px; height: 34px; left: 321px; top: 0px;visibility: inherit">
+            <div id="u5-1_div" class="u5_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u5-1_text" class="text u5_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">王老五</span></p>
+            </div>
+          </div>
+
+          <!-- 复查人 (矩形) -->
+          <div id="u6-1" class="ax_default _默认样式 u6" data-label="复查人" style="width: 94px; height: 34px; left: 415px; top: 0px;visibility: inherit">
+            <div id="u6-1_div" class="u6_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u6-1_text" class="text u6_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">陈老六</span></p>
+            </div>
+          </div>
+
+          <!-- 等级 (矩形) -->
+          <div id="u7-1" class="ax_default _默认样式 u7" data-label="等级" style="width: 94px; height: 34px; left: 684px; top: 0px;visibility: inherit">
+            <div id="u7-1_div" class="u7_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u7-1_text" class="text u7_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">一般隐患</span></p>
+            </div>
+          </div>
+
+          <!-- 类型 (矩形) -->
+          <div id="u8-1" class="ax_default _默认样式 u8" data-label="类型" style="width: 94px; height: 34px; left: 778px; top: 0px;visibility: inherit">
+            <div id="u8-1_div" class="u8_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u8-1_text" class="text u8_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">安全管理</span></p>
+            </div>
+          </div>
+
+          <!-- 状态 (矩形) -->
+          <div id="u9-1" class="ax_default _默认样式 u9" data-label="状态" style="width: 94px; height: 34px; left: 872px; top: 0px;visibility: inherit">
+            <div id="u9-1_div" class="u9_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u9-1_text" class="text u9_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">未提交</span></p>
+            </div>
+          </div>
+
+          <!-- 数据类型 (矩形) -->
+          <div id="u10-1" class="ax_default _默认样式 u10" data-label="数据类型" style="width: 94px; height: 34px; left: 966px; top: 0px;visibility: inherit">
+            <div id="u10-1_div" class="u10_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u10-1_text" class="text u10_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">检查</span></p>
+            </div>
+          </div>
+
+          <!-- 整改时限 (矩形) -->
+          <div id="u11-1" class="ax_default _默认样式 u11" data-label="整改时限" style="width: 175px; height: 34px; left: 509px; top: 0px;visibility: inherit">
+            <div id="u11-1_div" class="u11_div" style="width: 175px; height: 34px;visibility: inherit"></div>
+            <div id="u11-1_text" class="text u11_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">2019-12-10 12:45</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u0-2" class="preeval" style="width: 1060px; height: 34px;">
+
+          <!-- num (矩形) -->
+          <div id="u1-2" class="ax_default _默认样式 u1" data-label="num" style="width: 39px; height: 34px; left: 0px; top: 0px;visibility: inherit">
+            <div id="u1-2_div" class="u1_div" style="width: 39px; height: 34px;visibility: inherit"></div>
+            <div id="u1-2_text" class="text u1_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">2</span></p>
+            </div>
+          </div>
+
+          <!-- title (矩形) -->
+          <div id="u2-2" class="ax_default _默认样式 u2" data-label="title" style="width: 94px; height: 34px; left: 39px; top: 0px;visibility: inherit">
+            <div id="u2-2_div" class="u2_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u2-2_text" class="text u2_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">基坑</span></p>
+            </div>
+          </div>
+
+          <!-- 检查人 (矩形) -->
+          <div id="u3-2" class="ax_default _默认样式 u3" data-label="检查人" style="width: 94px; height: 34px; left: 133px; top: 0px;visibility: inherit">
+            <div id="u3-2_div" class="u3_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u3-2_text" class="text u3_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">李四</span></p>
+            </div>
+          </div>
+
+          <!-- 责任人 (矩形) -->
+          <div id="u4-2" class="ax_default _默认样式 u4" data-label="责任人" style="width: 94px; height: 34px; left: 227px; top: 0px;visibility: inherit">
+            <div id="u4-2_div" class="u4_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u4-2_text" class="text u4_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">向天歌</span></p>
+            </div>
+          </div>
+
+          <!-- 整改人 (矩形) -->
+          <div id="u5-2" class="ax_default _默认样式 u5" data-label="整改人" style="width: 94px; height: 34px; left: 321px; top: 0px;visibility: inherit">
+            <div id="u5-2_div" class="u5_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u5-2_text" class="text u5_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">向天歌</span></p>
+            </div>
+          </div>
+
+          <!-- 复查人 (矩形) -->
+          <div id="u6-2" class="ax_default _默认样式 u6" data-label="复查人" style="width: 94px; height: 34px; left: 415px; top: 0px;visibility: inherit">
+            <div id="u6-2_div" class="u6_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u6-2_text" class="text u6_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">李四</span></p>
+            </div>
+          </div>
+
+          <!-- 等级 (矩形) -->
+          <div id="u7-2" class="ax_default _默认样式 u7" data-label="等级" style="width: 94px; height: 34px; left: 684px; top: 0px;visibility: inherit">
+            <div id="u7-2_div" class="u7_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u7-2_text" class="text u7_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">重大隐患</span></p>
+            </div>
+          </div>
+
+          <!-- 类型 (矩形) -->
+          <div id="u8-2" class="ax_default _默认样式 u8" data-label="类型" style="width: 94px; height: 34px; left: 778px; top: 0px;visibility: inherit">
+            <div id="u8-2_div" class="u8_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u8-2_text" class="text u8_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">文明施工</span></p>
+            </div>
+          </div>
+
+          <!-- 状态 (矩形) -->
+          <div id="u9-2" class="ax_default _默认样式 u9" data-label="状态" style="width: 94px; height: 34px; left: 872px; top: 0px;visibility: inherit">
+            <div id="u9-2_div" class="u9_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u9-2_text" class="text u9_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">已提交</span></p>
+            </div>
+          </div>
+
+          <!-- 数据类型 (矩形) -->
+          <div id="u10-2" class="ax_default _默认样式 u10" data-label="数据类型" style="width: 94px; height: 34px; left: 966px; top: 0px;visibility: inherit">
+            <div id="u10-2_div" class="u10_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u10-2_text" class="text u10_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">检查</span></p>
+            </div>
+          </div>
+
+          <!-- 整改时限 (矩形) -->
+          <div id="u11-2" class="ax_default _默认样式 u11" data-label="整改时限" style="width: 175px; height: 34px; left: 509px; top: 0px;visibility: inherit">
+            <div id="u11-2_div" class="u11_div" style="width: 175px; height: 34px;visibility: inherit"></div>
+            <div id="u11-2_text" class="text u11_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">2019-12-10 12:45</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u0-3" class="preeval" style="width: 1060px; height: 34px;">
+
+          <!-- num (矩形) -->
+          <div id="u1-3" class="ax_default _默认样式 u1" data-label="num" style="width: 39px; height: 34px; left: 0px; top: 0px;visibility: inherit">
+            <div id="u1-3_div" class="u1_div" style="width: 39px; height: 34px;visibility: inherit"></div>
+            <div id="u1-3_text" class="text u1_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">3</span></p>
+            </div>
+          </div>
+
+          <!-- title (矩形) -->
+          <div id="u2-3" class="ax_default _默认样式 u2" data-label="title" style="width: 94px; height: 34px; left: 39px; top: 0px;visibility: inherit">
+            <div id="u2-3_div" class="u2_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u2-3_text" class="text u2_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">基坑</span></p>
+            </div>
+          </div>
+
+          <!-- 检查人 (矩形) -->
+          <div id="u3-3" class="ax_default _默认样式 u3" data-label="检查人" style="width: 94px; height: 34px; left: 133px; top: 0px;visibility: inherit">
+            <div id="u3-3_div" class="u3_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u3-3_text" class="text u3_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">李四</span></p>
+            </div>
+          </div>
+
+          <!-- 责任人 (矩形) -->
+          <div id="u4-3" class="ax_default _默认样式 u4" data-label="责任人" style="width: 94px; height: 34px; left: 227px; top: 0px;visibility: inherit">
+            <div id="u4-3_div" class="u4_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u4-3_text" class="text u4_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">向天歌</span></p>
+            </div>
+          </div>
+
+          <!-- 整改人 (矩形) -->
+          <div id="u5-3" class="ax_default _默认样式 u5" data-label="整改人" style="width: 94px; height: 34px; left: 321px; top: 0px;visibility: inherit">
+            <div id="u5-3_div" class="u5_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u5-3_text" class="text u5_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">向天歌</span></p>
+            </div>
+          </div>
+
+          <!-- 复查人 (矩形) -->
+          <div id="u6-3" class="ax_default _默认样式 u6" data-label="复查人" style="width: 94px; height: 34px; left: 415px; top: 0px;visibility: inherit">
+            <div id="u6-3_div" class="u6_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u6-3_text" class="text u6_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">李四</span></p>
+            </div>
+          </div>
+
+          <!-- 等级 (矩形) -->
+          <div id="u7-3" class="ax_default _默认样式 u7" data-label="等级" style="width: 94px; height: 34px; left: 684px; top: 0px;visibility: inherit">
+            <div id="u7-3_div" class="u7_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u7-3_text" class="text u7_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">重大隐患</span></p>
+            </div>
+          </div>
+
+          <!-- 类型 (矩形) -->
+          <div id="u8-3" class="ax_default _默认样式 u8" data-label="类型" style="width: 94px; height: 34px; left: 778px; top: 0px;visibility: inherit">
+            <div id="u8-3_div" class="u8_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u8-3_text" class="text u8_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">文明施工</span></p>
+            </div>
+          </div>
+
+          <!-- 状态 (矩形) -->
+          <div id="u9-3" class="ax_default _默认样式 u9" data-label="状态" style="width: 94px; height: 34px; left: 872px; top: 0px;visibility: inherit">
+            <div id="u9-3_div" class="u9_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u9-3_text" class="text u9_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">已提交</span></p>
+            </div>
+          </div>
+
+          <!-- 数据类型 (矩形) -->
+          <div id="u10-3" class="ax_default _默认样式 u10" data-label="数据类型" style="width: 94px; height: 34px; left: 966px; top: 0px;visibility: inherit">
+            <div id="u10-3_div" class="u10_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u10-3_text" class="text u10_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">整改</span></p>
+            </div>
+          </div>
+
+          <!-- 整改时限 (矩形) -->
+          <div id="u11-3" class="ax_default _默认样式 u11" data-label="整改时限" style="width: 175px; height: 34px; left: 509px; top: 0px;visibility: inherit">
+            <div id="u11-3_div" class="u11_div" style="width: 175px; height: 34px;visibility: inherit"></div>
+            <div id="u11-3_text" class="text u11_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">2019-12-10 12:45</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u0-4" class="preeval" style="width: 1060px; height: 34px;">
+
+          <!-- num (矩形) -->
+          <div id="u1-4" class="ax_default _默认样式 u1" data-label="num" style="width: 39px; height: 34px; left: 0px; top: 0px;visibility: inherit">
+            <div id="u1-4_div" class="u1_div" style="width: 39px; height: 34px;visibility: inherit"></div>
+            <div id="u1-4_text" class="text u1_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">4</span></p>
+            </div>
+          </div>
+
+          <!-- title (矩形) -->
+          <div id="u2-4" class="ax_default _默认样式 u2" data-label="title" style="width: 94px; height: 34px; left: 39px; top: 0px;visibility: inherit">
+            <div id="u2-4_div" class="u2_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u2-4_text" class="text u2_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">天桥</span></p>
+            </div>
+          </div>
+
+          <!-- 检查人 (矩形) -->
+          <div id="u3-4" class="ax_default _默认样式 u3" data-label="检查人" style="width: 94px; height: 34px; left: 133px; top: 0px;visibility: inherit">
+            <div id="u3-4_div" class="u3_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u3-4_text" class="text u3_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">李四</span></p>
+            </div>
+          </div>
+
+          <!-- 责任人 (矩形) -->
+          <div id="u4-4" class="ax_default _默认样式 u4" data-label="责任人" style="width: 94px; height: 34px; left: 227px; top: 0px;visibility: inherit">
+            <div id="u4-4_div" class="u4_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u4-4_text" class="text u4_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">赵四</span></p>
+            </div>
+          </div>
+
+          <!-- 整改人 (矩形) -->
+          <div id="u5-4" class="ax_default _默认样式 u5" data-label="整改人" style="width: 94px; height: 34px; left: 321px; top: 0px;visibility: inherit">
+            <div id="u5-4_div" class="u5_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u5-4_text" class="text u5_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">范闲</span></p>
+            </div>
+          </div>
+
+          <!-- 复查人 (矩形) -->
+          <div id="u6-4" class="ax_default _默认样式 u6" data-label="复查人" style="width: 94px; height: 34px; left: 415px; top: 0px;visibility: inherit">
+            <div id="u6-4_div" class="u6_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u6-4_text" class="text u6_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">王大拿</span></p>
+            </div>
+          </div>
+
+          <!-- 等级 (矩形) -->
+          <div id="u7-4" class="ax_default _默认样式 u7" data-label="等级" style="width: 94px; height: 34px; left: 684px; top: 0px;visibility: inherit">
+            <div id="u7-4_div" class="u7_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u7-4_text" class="text u7_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">违章</span></p>
+            </div>
+          </div>
+
+          <!-- 类型 (矩形) -->
+          <div id="u8-4" class="ax_default _默认样式 u8" data-label="类型" style="width: 94px; height: 34px; left: 778px; top: 0px;visibility: inherit">
+            <div id="u8-4_div" class="u8_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u8-4_text" class="text u8_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">安全管理</span></p>
+            </div>
+          </div>
+
+          <!-- 状态 (矩形) -->
+          <div id="u9-4" class="ax_default _默认样式 u9" data-label="状态" style="width: 94px; height: 34px; left: 872px; top: 0px;visibility: inherit">
+            <div id="u9-4_div" class="u9_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u9-4_text" class="text u9_text" style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 数据类型 (矩形) -->
+          <div id="u10-4" class="ax_default _默认样式 u10" data-label="数据类型" style="width: 94px; height: 34px; left: 966px; top: 0px;visibility: inherit">
+            <div id="u10-4_div" class="u10_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u10-4_text" class="text u10_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">整改</span></p>
+            </div>
+          </div>
+
+          <!-- 整改时限 (矩形) -->
+          <div id="u11-4" class="ax_default _默认样式 u11" data-label="整改时限" style="width: 175px; height: 34px; left: 509px; top: 0px;visibility: inherit">
+            <div id="u11-4_div" class="u11_div" style="width: 175px; height: 34px;visibility: inherit"></div>
+            <div id="u11-4_text" class="text u11_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">2019-12-10 12:45</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u0-5" class="preeval" style="width: 1060px; height: 34px;">
+
+          <!-- num (矩形) -->
+          <div id="u1-5" class="ax_default _默认样式 u1" data-label="num" style="width: 39px; height: 34px; left: 0px; top: 0px;visibility: inherit">
+            <div id="u1-5_div" class="u1_div" style="width: 39px; height: 34px;visibility: inherit"></div>
+            <div id="u1-5_text" class="text u1_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">5</span></p>
+            </div>
+          </div>
+
+          <!-- title (矩形) -->
+          <div id="u2-5" class="ax_default _默认样式 u2" data-label="title" style="width: 94px; height: 34px; left: 39px; top: 0px;visibility: inherit">
+            <div id="u2-5_div" class="u2_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u2-5_text" class="text u2_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">天桥</span></p>
+            </div>
+          </div>
+
+          <!-- 检查人 (矩形) -->
+          <div id="u3-5" class="ax_default _默认样式 u3" data-label="检查人" style="width: 94px; height: 34px; left: 133px; top: 0px;visibility: inherit">
+            <div id="u3-5_div" class="u3_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u3-5_text" class="text u3_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">李四</span></p>
+            </div>
+          </div>
+
+          <!-- 责任人 (矩形) -->
+          <div id="u4-5" class="ax_default _默认样式 u4" data-label="责任人" style="width: 94px; height: 34px; left: 227px; top: 0px;visibility: inherit">
+            <div id="u4-5_div" class="u4_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u4-5_text" class="text u4_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">赵四</span></p>
+            </div>
+          </div>
+
+          <!-- 整改人 (矩形) -->
+          <div id="u5-5" class="ax_default _默认样式 u5" data-label="整改人" style="width: 94px; height: 34px; left: 321px; top: 0px;visibility: inherit">
+            <div id="u5-5_div" class="u5_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u5-5_text" class="text u5_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">范闲</span></p>
+            </div>
+          </div>
+
+          <!-- 复查人 (矩形) -->
+          <div id="u6-5" class="ax_default _默认样式 u6" data-label="复查人" style="width: 94px; height: 34px; left: 415px; top: 0px;visibility: inherit">
+            <div id="u6-5_div" class="u6_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u6-5_text" class="text u6_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">王大拿</span></p>
+            </div>
+          </div>
+
+          <!-- 等级 (矩形) -->
+          <div id="u7-5" class="ax_default _默认样式 u7" data-label="等级" style="width: 94px; height: 34px; left: 684px; top: 0px;visibility: inherit">
+            <div id="u7-5_div" class="u7_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u7-5_text" class="text u7_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">违章</span></p>
+            </div>
+          </div>
+
+          <!-- 类型 (矩形) -->
+          <div id="u8-5" class="ax_default _默认样式 u8" data-label="类型" style="width: 94px; height: 34px; left: 778px; top: 0px;visibility: inherit">
+            <div id="u8-5_div" class="u8_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u8-5_text" class="text u8_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">安全管理</span></p>
+            </div>
+          </div>
+
+          <!-- 状态 (矩形) -->
+          <div id="u9-5" class="ax_default _默认样式 u9" data-label="状态" style="width: 94px; height: 34px; left: 872px; top: 0px;visibility: inherit">
+            <div id="u9-5_div" class="u9_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u9-5_text" class="text u9_text" style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 数据类型 (矩形) -->
+          <div id="u10-5" class="ax_default _默认样式 u10" data-label="数据类型" style="width: 94px; height: 34px; left: 966px; top: 0px;visibility: inherit">
+            <div id="u10-5_div" class="u10_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u10-5_text" class="text u10_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">复查</span></p>
+            </div>
+          </div>
+
+          <!-- 整改时限 (矩形) -->
+          <div id="u11-5" class="ax_default _默认样式 u11" data-label="整改时限" style="width: 175px; height: 34px; left: 509px; top: 0px;visibility: inherit">
+            <div id="u11-5_div" class="u11_div" style="width: 175px; height: 34px;visibility: inherit"></div>
+            <div id="u11-5_text" class="text u11_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">2019-12-10 12:45</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u0-6" class="preeval" style="width: 1060px; height: 34px;">
+
+          <!-- num (矩形) -->
+          <div id="u1-6" class="ax_default _默认样式 u1" data-label="num" style="width: 39px; height: 34px; left: 0px; top: 0px;visibility: inherit">
+            <div id="u1-6_div" class="u1_div" style="width: 39px; height: 34px;visibility: inherit"></div>
+            <div id="u1-6_text" class="text u1_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">6</span></p>
+            </div>
+          </div>
+
+          <!-- title (矩形) -->
+          <div id="u2-6" class="ax_default _默认样式 u2" data-label="title" style="width: 94px; height: 34px; left: 39px; top: 0px;visibility: inherit">
+            <div id="u2-6_div" class="u2_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u2-6_text" class="text u2_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">围墙</span></p>
+            </div>
+          </div>
+
+          <!-- 检查人 (矩形) -->
+          <div id="u3-6" class="ax_default _默认样式 u3" data-label="检查人" style="width: 94px; height: 34px; left: 133px; top: 0px;visibility: inherit">
+            <div id="u3-6_div" class="u3_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u3-6_text" class="text u3_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">刘老根</span></p>
+            </div>
+          </div>
+
+          <!-- 责任人 (矩形) -->
+          <div id="u4-6" class="ax_default _默认样式 u4" data-label="责任人" style="width: 94px; height: 34px; left: 227px; top: 0px;visibility: inherit">
+            <div id="u4-6_div" class="u4_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u4-6_text" class="text u4_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">王宝库</span></p>
+            </div>
+          </div>
+
+          <!-- 整改人 (矩形) -->
+          <div id="u5-6" class="ax_default _默认样式 u5" data-label="整改人" style="width: 94px; height: 34px; left: 321px; top: 0px;visibility: inherit">
+            <div id="u5-6_div" class="u5_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u5-6_text" class="text u5_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">范闲</span></p>
+            </div>
+          </div>
+
+          <!-- 复查人 (矩形) -->
+          <div id="u6-6" class="ax_default _默认样式 u6" data-label="复查人" style="width: 94px; height: 34px; left: 415px; top: 0px;visibility: inherit">
+            <div id="u6-6_div" class="u6_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u6-6_text" class="text u6_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">王大拿</span></p>
+            </div>
+          </div>
+
+          <!-- 等级 (矩形) -->
+          <div id="u7-6" class="ax_default _默认样式 u7" data-label="等级" style="width: 94px; height: 34px; left: 684px; top: 0px;visibility: inherit">
+            <div id="u7-6_div" class="u7_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u7-6_text" class="text u7_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">一般隐患</span></p>
+            </div>
+          </div>
+
+          <!-- 类型 (矩形) -->
+          <div id="u8-6" class="ax_default _默认样式 u8" data-label="类型" style="width: 94px; height: 34px; left: 778px; top: 0px;visibility: inherit">
+            <div id="u8-6_div" class="u8_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u8-6_text" class="text u8_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">施工用电</span></p>
+            </div>
+          </div>
+
+          <!-- 状态 (矩形) -->
+          <div id="u9-6" class="ax_default _默认样式 u9" data-label="状态" style="width: 94px; height: 34px; left: 872px; top: 0px;visibility: inherit">
+            <div id="u9-6_div" class="u9_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u9-6_text" class="text u9_text" style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- 数据类型 (矩形) -->
+          <div id="u10-6" class="ax_default _默认样式 u10" data-label="数据类型" style="width: 94px; height: 34px; left: 966px; top: 0px;visibility: inherit">
+            <div id="u10-6_div" class="u10_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u10-6_text" class="text u10_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">复查</span></p>
+            </div>
+          </div>
+
+          <!-- 整改时限 (矩形) -->
+          <div id="u11-6" class="ax_default _默认样式 u11" data-label="整改时限" style="width: 175px; height: 34px; left: 509px; top: 0px;visibility: inherit">
+            <div id="u11-6_div" class="u11_div" style="width: 175px; height: 34px;visibility: inherit"></div>
+            <div id="u11-6_text" class="text u11_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">2019-12-10 12:45</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="u0-7" class="preeval" style="width: 1060px; height: 34px;">
+
+          <!-- num (矩形) -->
+          <div id="u1-7" class="ax_default _默认样式 u1" data-label="num" style="width: 39px; height: 34px; left: 0px; top: 0px;visibility: inherit">
+            <div id="u1-7_div" class="u1_div" style="width: 39px; height: 34px;visibility: inherit"></div>
+            <div id="u1-7_text" class="text u1_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">7</span></p>
+            </div>
+          </div>
+
+          <!-- title (矩形) -->
+          <div id="u2-7" class="ax_default _默认样式 u2" data-label="title" style="width: 94px; height: 34px; left: 39px; top: 0px;visibility: inherit">
+            <div id="u2-7_div" class="u2_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u2-7_text" class="text u2_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">测试</span></p>
+            </div>
+          </div>
+
+          <!-- 检查人 (矩形) -->
+          <div id="u3-7" class="ax_default _默认样式 u3" data-label="检查人" style="width: 94px; height: 34px; left: 133px; top: 0px;visibility: inherit">
+            <div id="u3-7_div" class="u3_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u3-7_text" class="text u3_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">测试</span></p>
+            </div>
+          </div>
+
+          <!-- 责任人 (矩形) -->
+          <div id="u4-7" class="ax_default _默认样式 u4" data-label="责任人" style="width: 94px; height: 34px; left: 227px; top: 0px;visibility: inherit">
+            <div id="u4-7_div" class="u4_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u4-7_text" class="text u4_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">测试</span></p>
+            </div>
+          </div>
+
+          <!-- 整改人 (矩形) -->
+          <div id="u5-7" class="ax_default _默认样式 u5" data-label="整改人" style="width: 94px; height: 34px; left: 321px; top: 0px;visibility: inherit">
+            <div id="u5-7_div" class="u5_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u5-7_text" class="text u5_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">测试</span></p>
+            </div>
+          </div>
+
+          <!-- 复查人 (矩形) -->
+          <div id="u6-7" class="ax_default _默认样式 u6" data-label="复查人" style="width: 94px; height: 34px; left: 415px; top: 0px;visibility: inherit">
+            <div id="u6-7_div" class="u6_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u6-7_text" class="text u6_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">测试</span></p>
+            </div>
+          </div>
+
+          <!-- 等级 (矩形) -->
+          <div id="u7-7" class="ax_default _默认样式 u7" data-label="等级" style="width: 94px; height: 34px; left: 684px; top: 0px;visibility: inherit">
+            <div id="u7-7_div" class="u7_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u7-7_text" class="text u7_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">违章</span></p>
+            </div>
+          </div>
+
+          <!-- 类型 (矩形) -->
+          <div id="u8-7" class="ax_default _默认样式 u8" data-label="类型" style="width: 94px; height: 34px; left: 778px; top: 0px;visibility: inherit">
+            <div id="u8-7_div" class="u8_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u8-7_text" class="text u8_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">测试</span></p>
+            </div>
+          </div>
+
+          <!-- 状态 (矩形) -->
+          <div id="u9-7" class="ax_default _默认样式 u9" data-label="状态" style="width: 94px; height: 34px; left: 872px; top: 0px;visibility: inherit">
+            <div id="u9-7_div" class="u9_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u9-7_text" class="text u9_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">未提交</span></p>
+            </div>
+          </div>
+
+          <!-- 数据类型 (矩形) -->
+          <div id="u10-7" class="ax_default _默认样式 u10" data-label="数据类型" style="width: 94px; height: 34px; left: 966px; top: 0px;visibility: inherit">
+            <div id="u10-7_div" class="u10_div" style="width: 94px; height: 34px;visibility: inherit"></div>
+            <div id="u10-7_text" class="text u10_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">检查</span></p>
+            </div>
+          </div>
+
+          <!-- 整改时限 (矩形) -->
+          <div id="u11-7" class="ax_default _默认样式 u11" data-label="整改时限" style="width: 175px; height: 34px; left: 509px; top: 0px;visibility: inherit">
+            <div id="u11-7_div" class="u11_div" style="width: 175px; height: 34px;visibility: inherit"></div>
+            <div id="u11-7_text" class="text u11_text" style="visibility: inherit">
+              <p><span style="text-decoration:none;">测试</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- num (矩形) -->
+      <div id="u12" class="ax_default _默认样式" data-label="num">
+        <div id="u12_div" class=""></div>
+        <div id="u12_text" class="text ">
+          <p><span style="text-decoration:none;">序号</span></p>
+        </div>
+      </div>
+
+      <!-- title (矩形) -->
+      <div id="u13" class="ax_default _默认样式" data-label="title">
+        <div id="u13_div" class=""></div>
+        <div id="u13_text" class="text ">
+          <p><span style="text-decoration:none;">标题</span></p>
+        </div>
+      </div>
+
+      <!-- 检查人 (矩形) -->
+      <div id="u14" class="ax_default _默认样式" data-label="检查人">
+        <div id="u14_div" class=""></div>
+        <div id="u14_text" class="text ">
+          <p><span style="text-decoration:none;">检查人</span></p>
+        </div>
+      </div>
+
+      <!-- 责任人 (矩形) -->
+      <div id="u15" class="ax_default _默认样式" data-label="责任人">
+        <div id="u15_div" class=""></div>
+        <div id="u15_text" class="text ">
+          <p><span style="text-decoration:none;">责任人</span></p>
+        </div>
+      </div>
+
+      <!-- 整改人 (矩形) -->
+      <div id="u16" class="ax_default _默认样式" data-label="整改人">
+        <div id="u16_div" class=""></div>
+        <div id="u16_text" class="text ">
+          <p><span style="text-decoration:none;">整改人</span></p>
+        </div>
+      </div>
+
+      <!-- 复查人 (矩形) -->
+      <div id="u17" class="ax_default _默认样式" data-label="复查人">
+        <div id="u17_div" class=""></div>
+        <div id="u17_text" class="text ">
+          <p><span style="text-decoration:none;">复查人</span></p>
+        </div>
+      </div>
+
+      <!-- 等级 (矩形) -->
+      <div id="u18" class="ax_default _默认样式" data-label="等级">
+        <div id="u18_div" class=""></div>
+        <div id="u18_text" class="text ">
+          <p><span style="text-decoration:none;">隐患等级</span></p>
+        </div>
+      </div>
+
+      <!-- 类型 (矩形) -->
+      <div id="u19" class="ax_default _默认样式" data-label="类型">
+        <div id="u19_div" class=""></div>
+        <div id="u19_text" class="text ">
+          <p><span style="text-decoration:none;">隐患</span></p>
+        </div>
+      </div>
+
+      <!-- 状态 (矩形) -->
+      <div id="u20" class="ax_default _默认样式" data-label="状态">
+        <div id="u20_div" class=""></div>
+        <div id="u20_text" class="text ">
+          <p><span style="text-decoration:none;">状态</span></p>
+        </div>
+      </div>
+
+      <!-- 数据类型 (矩形) -->
+      <div id="u21" class="ax_default _默认样式" data-label="数据类型">
+        <div id="u21_div" class=""></div>
+        <div id="u21_text" class="text ">
+          <p><span style="text-decoration:none;">数据状态</span></p>
+        </div>
+      </div>
+
+      <!-- 整改时限 (矩形) -->
+      <div id="u22" class="ax_default _默认样式" data-label="整改时限">
+        <div id="u22_div" class=""></div>
+        <div id="u22_text" class="text ">
+          <p><span style="text-decoration:none;">整改时限</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u23" class="ax_default label">
+        <div id="u23_div" class=""></div>
+        <div id="u23_text" class="text ">
+          <p><span style="text-decoration:none;">数据库列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u24" class="ax_default droplist">
+        <div id="u24_div" class=""></div>
+        <select id="u24_input" class="u24_input">
+          <option class="u24_input_option" value="机械设备">机械设备</option>
+          <option class="u24_input_option" value="船机">船机</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u25" class="ax_default">
+        <div id="u25_state0" class="panel_state" data-label="状态1" style="">
+          <div id="u25_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u26" class="ax_default droplist">
+              <div id="u26_div" class=""></div>
+              <select id="u26_input" class="u26_input">
+                <option class="u26_input_option" value="起重机">起重机</option>
+                <option class="u26_input_option" value="塔吊">塔吊</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div id="u25_state1" class="panel_state" data-label="状态2" style="visibility: hidden;">
+          <div id="u25_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u27" class="ax_default droplist">
+              <div id="u27_div" class=""></div>
+              <select id="u27_input" class="u27_input">
+                <option class="u27_input_option" value="大船">大船</option>
+                <option class="u27_input_option" value="小船">小船</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u28" class="ax_default label">
+        <div id="u28_div" class=""></div>
+        <div id="u28_text" class="text ">
+          <p><span style="text-decoration:none;">GITHUB在线地址：</span></p><p><span style="text-decoration:none;">https://jindl0605.github.io/zhgd_safe_APP/</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
